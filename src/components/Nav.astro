@@ -15,9 +15,19 @@ const iconLinks: {
   label: string;
   href: string;
   icon: keyof typeof iconPaths;
+  text?: string;
 }[] = [
-  // { label: 'Twitter', href: 'https://twitter.com/me', icon: 'twitter-logo' },
-  // { label: 'Twitch', href: 'https://twitch.tv/me', icon: 'twitch-logo' },
+  {
+    label: "Email",
+    href: "mailto:nanush@gmail.com",
+    icon: "paper-plane-tilt",
+    text: "nanush@gmail.com",
+  },
+  {
+    label: "Linkedin",
+    href: "https://www.linkedin.com/in/mariana-hernandorena/",
+    icon: "linkedin-logo",
+  },
   // { label: 'GitHub', href: 'https://github.com/me', icon: 'github-logo' },
   // { label: 'CodePen', href: 'https://codepen.io/me', icon: 'codepen-logo' },
   // { label: 'dribbble', href: 'https://dribbble.com/me', icon: 'dribbble-logo' },
@@ -74,10 +84,12 @@ const isCurrentPage = (href: string) => {
     <div class="menu-footer">
       <div class="socials">
         {
-          iconLinks.map(({ href, icon, label }) => (
+          iconLinks.map(({ href, icon, label, text }) => (
             <a href={href} class="social">
               <span class="sr-only">{label}</span>
               <Icon icon={icon} />
+
+              {text && <small>{text}</small>}
             </a>
           ))
         }
@@ -103,10 +115,12 @@ const isCurrentPage = (href: string) => {
     <div class="menu-footer">
       <div class="socials">
         {
-          iconLinks.map(({ href, icon, label }) => (
+          iconLinks.map(({ href, icon, label, text }) => (
             <a href={href} class="social">
               <span class="sr-only">{label}</span>
               <Icon icon={icon} />
+
+              {text && <small>{text}</small>}
             </a>
           ))
         }
@@ -250,7 +264,7 @@ const isCurrentPage = (href: string) => {
     justify-content: space-between;
     gap: 0.75rem;
     padding: 1.5rem 2rem 1.5rem 1.5rem;
-    background-color: var(--gray-999);
+    background-color: var(--gray-600);
     border-radius: 0 0 0.75rem 0.75rem;
     box-shadow: var(--shadow-lg);
   }
@@ -268,11 +282,19 @@ const isCurrentPage = (href: string) => {
     text-decoration: none;
     color: var(--accent-dark);
     transition: color var(--theme-transition);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
   }
 
   .social:hover,
   .social:focus {
     color: var(--accent-text-over);
+  }
+
+  .social small {
+    font-size: 11px;
+    line-height: 1;
   }
 
   .theme-toggle {

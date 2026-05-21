@@ -1,28 +1,58 @@
-# Astro Starter Kit: Portfolio
+# Mariana Hernandorena — Portfolio
 
-```sh
-npm create astro@latest -- --template portfolio
+Frontend Developer + QA Manual | HTML, CSS, UX/UI | Remoto | 18+ años creando experiencias web escalables.
+
+## 🌐 Sitio online
+
+👉 https://portfolio-pearl-beta-60.vercel.app/
+
+## ✨ Sobre el proyecto
+
+Portfolio profesional desarrollado con Astro, enfocado en presentar experiencia en:
+
+- Frontend Development
+- UI responsive
+- QA Manual
+- Integración de APIs
+- WordPress + Divi
+- React / Astro
+- Landing pages orientadas a conversión
+- Mantenimiento y evolución de portales digitales
+
+El sitio fue personalizado sobre la base del template Portfolio Starter de Astro.
+
+## 🛠️ Stack
+
+- Astro
+- TypeScript
+- CSS
+- Markdown Collections
+- Vercel
+
+## 🚀 Comandos
+
+Todos los comandos se ejecutan desde la raíz del proyecto.
+
+| Command               | Action                                 |
+| :-------------------- | :------------------------------------- |
+| `npm install`         | Instala dependencias                   |
+| `npm run dev`         | Inicia entorno local                   |
+| `npm run build`       | Genera build de producción             |
+| `npm run preview`     | Preview local del build                |
+| `npm run astro check` | Verifica errores de Astro y TypeScript |
+
+## 📬 Contacto
+
+- LinkedIn: www.linkedin.com/in/mariana-hernandorena
+- Email: nanush@gmail.com
+
+## 🙌 Acknowledgements
+
+Este portfolio fue desarrollado a partir del template Portfolio de Astro, adaptado y personalizado para uso profesional.
+
+- Astro Portfolio Template: https://github.com/withastro/astro/tree/latest/examples/portfolio
+- Astro: https://astro.build
+
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/portfolio)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/portfolio)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/portfolio/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+```
