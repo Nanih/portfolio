@@ -14,12 +14,12 @@
   --gray-900: #f3f4f7;
   --gray-999-basis: 0, 0%, 100%;
   --gray-999_40: hsla(var(--gray-999-basis), 0.4);
-  --gray-999: #ffffff;
+  --gray-999: #fefefe;
 
   --accent-light: #aaaee0;
   --accent-regular: #777ec8;
   --accent-dark: #444ca0;
-  --accent-overlay: hsla(280, 89%, 67%, 0.33);
+  --accent-overlay: #b3e2d7;
   --accent-subtle-overlay: var(--accent-overlay);
   --accent-text-over: var(--gray-999);
 
@@ -31,8 +31,8 @@
   --gradient-stop-3: var(--accent-dark);
   --gradient-subtle: linear-gradient(
     150deg,
-    var(--gray-900) 19%,
-    var(--gray-999) 150%
+    #e8e6f8 19%,
+    /* lila muy suave */ #f0faf9 150% /* verde agua muy suave */
   );
   --gradient-accent: linear-gradient(
     150deg,
@@ -43,8 +43,8 @@
   --gradient-accent-orange: linear-gradient(
     150deg,
     #91d1cd,
-    var(--accent-regular),
-    var(--accent-dark)
+    /* tu verde #95d3c9 */ var(--accent-regular),
+    /* lila medio */ var(--accent-dark) /* lila oscuro */
   );
   --gradient-stroke: linear-gradient(180deg, var(--gray-900), var(--gray-700));
 
@@ -108,14 +108,15 @@
   --gradient-stop-1: #4c11c6;
   --gradient-subtle: linear-gradient(
     150deg,
-    var(--gray-900) 19%,
-    var(--gray-999) 81%
+    #1a1730 19%,
+    /* dark con tinte lila */ #0e1f1e 81% /* dark con tinte verde agua */
   );
+
   --gradient-accent-orange: linear-gradient(
     150deg,
-    #c3d5d0,
-    var(--accent-regular),
-    var(--accent-light)
+    #2a6e6a,
+    /* verde agua oscuro */ var(--accent-regular),
+    /* lila */ var(--accent-light) /* lila claro */
   );
   --gradient-stroke: linear-gradient(180deg, var(--gray-600), var(--gray-800));
 
